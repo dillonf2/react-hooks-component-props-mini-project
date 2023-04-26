@@ -2,7 +2,9 @@ import react from "react";
 
 function Header(props){
     return(
-        <h1>{props.name}</h1>
+        <header>
+            <h1>{props.name}</h1>
+        </header>
     )
 }
 
